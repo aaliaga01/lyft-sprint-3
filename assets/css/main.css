@@ -320,9 +320,10 @@ i{
 #oculto{
 	width: 100%;
 	height: 500px;
-	padding-bottom: 20px
-	border: solid 5px whitesmoke;
 	background-color: pink;
+	padding: 10px;
+	padding-bottom: 20px;
+	border: solid bold red;
 }
 
 .visible{
@@ -332,7 +333,6 @@ i{
 .fondo-agrandar{
 	height: 500px;
 	padding-bottom:350px;
-
 }
 
 .esconder{
