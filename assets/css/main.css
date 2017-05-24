@@ -329,6 +329,12 @@ i{
 	display: block;
 }
 
+.fondo-agrandar{
+	height: 500px;
+	padding-bottom:350px;
+
+}
+
 .esconder{
 	display: none;
 }	
