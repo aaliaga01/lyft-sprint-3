@@ -38,11 +38,14 @@
 	<section id="play">
 		<h1>Play with lyft</h1>
 		<div class="eventos">
-		<i class="fa fa-car" aria-hidden="true"></i>
-			<input type="text" class="coord-x" placeholder="X coordinate"/>
-		<i class="fa fa-car" aria-hidden="true"></i>
-			<input type="text" class="coord-y" placeholder="Y coordinate"/>
-			<button type="submit" class="start">Start</button>
+			<div id="oculto" class="esconder"></div><!-- tablero oculto-->
+			<div id="visible">
+				<i class="fa fa-car" aria-hidden="true"></i>
+				<input type="text" class="coord-x" placeholder="X coordinate"/>
+				<i class="fa fa-car" aria-hidden="true"></i>
+				<input type="text" class="coord-y" placeholder="Y coordinate"/>
+				<button type="submit" id="jugar" class="start">Start</button>
+			</div>
 		</div>
 	</section>
 	<footer id="pie"> <!--- empieza footer -->

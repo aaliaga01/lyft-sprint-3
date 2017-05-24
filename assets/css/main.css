@@ -182,7 +182,6 @@ body{
 
 .eventos{
 	width: 70%;
-	height: 200px;
 	position: relative;
 	top: 170px;
 	margin: 0 auto;
@@ -217,6 +216,7 @@ i{
 	width: 90%;
 	height: 38px;
 	margin:5px 40px;
+	margin-bottom: 20px;
 	background-color: #00B2A9;
 	border:solid thin #00B2A9;
 	border-radius: 10px;
@@ -317,5 +317,19 @@ i{
 	text-align: right;
 }
 
-	
+#oculto{
+	width: 100%;
+	height: 500px;
+	padding-bottom: 20px
+	border: solid 5px whitesmoke;
+	background-color: pink;
+}
+
+.visible{
+	display: block;
+}
+
+.esconder{
+	display: none;
+}	
 
