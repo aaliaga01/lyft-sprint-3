@@ -16,6 +16,7 @@ Colors:
 body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
+	font-weight: normal;
 }
 
 /*estilos menu*/
@@ -77,14 +78,15 @@ body{
 /*estilos formulario*/
 .formulario{
 	width: 35%;
-	height: 350px;
+	height: 340px;
 	position: relative;
 	float: right;
 	clear: bottom;
-	top:150px;
+	top:140px;
 	background-color: #EDE9E2;
 	padding-left: 40px;
 	padding-top: 30px;
+	font-weight: 400;
 }
 
 .formulario h2{
@@ -94,13 +96,14 @@ body{
 }
 
 .formulario p{
-	color: #75726C;
+	color: #BFBFBF;
 }
 
 .formulario p:nth-child(2) {
 	text-transform: uppercase;
 	margin: 20px 0;
 	font-size: 14px;
+	color: #A4A4A4;
 }
 
 .num-fono input{
@@ -114,10 +117,74 @@ body{
 	border-bottom: solid thin silver;
 }
 
-input::placeholder{
-	color: red;
+.num-fono input::placeholder{
+	color: #DADADA;
+}
+
+.boton button{
+	width: 170px;
+	height: 35px;
+	margin-top:10px;
+	background-color: #E54E79;
+	border:solid thin #E54E79;
+	border-radius: 12px;
+	color: white;
+	text-transform: uppercase;
 }
 
 .formulario p:last-child{
+	color: #75726C;
+	font-size: 12px;
+	line-height: 28px;
+	margin-top: 10px;
+}
+
+/*estilos coordenadas*/
+#play{
+	width: 100%;
+	height: 400px;
+	background-color: #00B2A9;
+}
+
+#play h1{
+	width: 100%;
+	margin-top: 60px;
+	position: absolute;
+	background-color: #EDE9E2;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 38px;
+	text-transform: uppercase;
+	color: #75726C;
+}
+
+.eventos{
+	width: 50%;
+	height: 200px;
+	position: relative;
+	top: 170px;
+	margin: 0 auto;
+	background-color: #EDE9E2;
+}
+
+.coord-x, .coord-y{
+	height: 18px;
+	width: 40%;
+	padding-top: 30px;
+	background-color: #ede9e2;
+	margin: 30px;
+	border: none;
+	border-bottom: solid 2px silver;
+}
+
+.start {
+	width: 90%;
+	height: 38px;
+	margin:10px 30px;
+	background-color: #00B2A9;
+	border:solid thin #00B2A9;
+	border-radius: 10px;
+	color: white;
 	text-transform: uppercase;
 }
+
